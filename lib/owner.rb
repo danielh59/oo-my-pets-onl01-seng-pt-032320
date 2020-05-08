@@ -1,3 +1,11 @@
+require 'pry'
 class Owner
-  # code goes here
+attr_reader :name
+attr_accessor :owner
+
+  def initialize(name)
+    @name = name
+  @owner = human
+end
+
 end
