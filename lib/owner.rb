@@ -18,4 +18,9 @@ def self.all
 @@all_owners
 end
 
+def self.all 
+  @@all_owners.count
+
+end 
+
 end
