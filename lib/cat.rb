@@ -1,4 +1,4 @@
 require_relative '.lib/owner.rb'
-class Cat
+class Cat < Owner
   # code goes here
 end
