@@ -2,12 +2,12 @@ require 'pry'
 class Owner
 attr_reader :name,:species
 
-@@all = []
+@@all_owners = []
 
 def initialize(name, species = "human")
 @name = name
 @species = species
-@@all << self
+@@all_owners << self
 end
 
 def say_species
@@ -15,7 +15,7 @@ def say_species
 end
 
 def self.all
-@@all
+@@all_owners
 end
 
 end
