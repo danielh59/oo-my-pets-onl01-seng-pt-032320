@@ -13,8 +13,8 @@ def say_species
 "I am a human."
 end
 
-def self.all 
+def self.all
 
-end 
+end
 
 end
