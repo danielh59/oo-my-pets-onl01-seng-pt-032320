@@ -1,6 +1,5 @@
-require_relative 'lib/owner.rb'
 
-class Cat < Owner
+class Cat
 attr_accessor :name, :owner
 
   def initialize(name)
