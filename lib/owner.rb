@@ -8,4 +8,8 @@ def initialize(name, species = "human")
 @species = species
 end
 
+def say_species()
+
+end 
+
 end
