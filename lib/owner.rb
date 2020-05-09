@@ -9,5 +9,5 @@ end
 
 def species(species = "human")
   @species
-end 
+end
 end
