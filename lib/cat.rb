@@ -1,4 +1,4 @@
-require_relative '.lib/owner.rb'
+require_relative 'lib/owner.rb'
 
 class Cat < Owner
 attr_accessor :name, :owner
