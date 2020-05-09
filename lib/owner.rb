@@ -7,4 +7,7 @@ def initialize(name)
 @name = name
 end
 
+def species(species = "human")
+  @species
+end 
 end
