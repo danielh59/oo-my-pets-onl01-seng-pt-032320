@@ -22,4 +22,8 @@ def self.count
   @@all_owners.count
 end
 
+def self.reset_all 
+  @@all_owners.clear
+end 
+
 end
